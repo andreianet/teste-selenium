@@ -1,6 +1,6 @@
-# Teste Individual - Gama | Accenture | Fomulários do Site Tricentis <br>
+# Teste Individual - Gama | Accenture | Formulários do Site Tricentis <br>
 
- <sub><b><strong>Andréia Cardoso</strong></b></sub></a> <a >🚀 #Accenture</a>
+ <sub><b><strong>Andréia Cardoso</strong></b></sub></a> <a >🚀 #AccentureObrigada</a>
 
 ## Tecnologias utilizadas no Teste:
 :heavy_check_mark: <b>Java | IDE Eclipse</b><br>
@@ -14,24 +14,24 @@ Framework responsável por traduzir uma Linguagem humana em código Java<br>
 
 :heavy_check_mark: <b>Selenium</b><br>
 Framework responsável por fazer a integração do código Java com a Linguagem Gherkin(Cucumber)<br>
+
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-## Dependencias
+## Dependências
 - cucumber-java<br>
 - cucumber-junit<br>
 - junit<br>
 - selenium-java<br>
 - junit-jupiter<br>
-
-## Plugin
-- maven-compiler<br>
+- maven-compiler(Plugin)<br>
 --------------------------------------------------------------------
 
-## Para testar ...Antes: Verificar o Java, JDK, Variáveis de Ambiente(JAVA_Home)
+## Para testar ... Antes deve verificar o Java, JDK, Variáveis de Ambiente(JAVA_HOME)
 - Clone do projeto
  ```bash
-git clone https://github.com/andreianet/teste-selenium ```
-
+git clone https://github.com/andreianet/teste-selenium 
+```
 --------------------------------------------------------------------
-Obs.: Não implementado Page Objects
+
+Obs.: Não implementado Page Objects.
 
