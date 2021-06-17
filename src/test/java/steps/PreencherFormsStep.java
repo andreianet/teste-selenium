@@ -19,7 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.Ent√£o;
+import io.cucumber.java.pt.Ent„o;
 import io.cucumber.java.pt.Quando;
 
 public class PreencherFormsStep {
@@ -29,7 +29,7 @@ public class PreencherFormsStep {
 	@Before
 	public void setup() {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Drives\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\andre\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
@@ -85,7 +85,7 @@ public class PreencherFormsStep {
 		
 		driver.findElement(By.cssSelector("#nextenterinsurantdata")).click();
 		
-		driver.findElement(By.id("firstname")).sendKeys("Andrea");
+		driver.findElement(By.id("firstname")).sendKeys("Andreia");
 		
 		driver.findElement(By.id("lastname")).sendKeys("Cardoso");
 
@@ -101,7 +101,7 @@ public class PreencherFormsStep {
 
 		driver.findElement(By.id("zipcode")).sendKeys("17509110");
 
-		driver.findElement(By.id("city")).sendKeys("Mar√≠lia");
+		driver.findElement(By.id("city")).sendKeys("Marilia");
 
 		WebElement comboOccupation = driver.findElement(By.id("occupation"));
 		select = new Select(comboOccupation);
@@ -109,7 +109,7 @@ public class PreencherFormsStep {
 
 		driver.findElement(By.xpath("//form[@id='insurance-form']/div/section[2]/div[10]/p/label/span")).click();
 
-		driver.findElement(By.id("website")).sendKeys("www.github/andreianet.com");
+		driver.findElement(By.id("website")).sendKeys("https://github.com/andreianet");
 
 		driver.findElement(By.id("nextenterproductdata")).click();
 		
@@ -164,7 +164,7 @@ public class PreencherFormsStep {
 
 	}
 
-	@Ent√£o("deve ser exibida a mensagem {string}")
+	@Ent„o("deve ser exibida a mensagem {string}")
 	public void deve_ser_exibida_a_mensagem(String sendSuccess) {
 		
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
